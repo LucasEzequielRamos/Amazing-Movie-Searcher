@@ -1,0 +1,27 @@
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+}
+
+.form button {
+  max-width: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.movie-container {
+  width: 80%;
+}
+
+.list-of-movies {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+}
