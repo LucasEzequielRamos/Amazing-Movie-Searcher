@@ -1,5 +1,4 @@
-
- function MoviesResults({movies}) {
+function MoviesResults({movies}) {
 return (
     <ul className="list-of-movies">
         {
